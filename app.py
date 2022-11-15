@@ -58,7 +58,7 @@ def board_write():
     mytime = today.strftime('%Y년 %m월 %d일 %H시 %M분 %S초')
     cardtime = today.strftime('%Y.%m.%d %H:%M')
     filename = f'file--{mytime}'
-    save_to = f'static/uploadfile/{filename}.{extension}'
+    save_to = f'/flask/app/static/uploadfile/{filename}.{extension}'
     file.save(save_to)
     doc = {
         'title': title_receive,

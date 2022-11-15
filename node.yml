@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   changjin_upload:
-    image: changjinkube/knu_shoppingmall:flask
+    image: changjin-sopping-mall:1
     # build: ./Flask
     stdin_open: true # docker run -i
     tty: true        # docker run -t

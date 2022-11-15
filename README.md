@@ -1,4 +1,12 @@
 # 오픈소스 정리
+
+## Quick Start
+ ```
+ docker build -f Dockerfile -t changjin-sopping-mall:1 . 
+ docker-compose -f node.yml u
+ ```
+
+
 ## 1. Flaskmail
 ### 설치법
     (웹에서 편리하게 이메일을 보낼 수 있다.)
